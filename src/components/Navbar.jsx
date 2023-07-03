@@ -1,4 +1,21 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
+  const url = (
+    <>
+      <Link className="hover:text-pink-500 hover:transition-all hover:duration-300 duration-300 transition-all">
+        Home
+      </Link>
+
+      <Link className="hover:text-pink-500 hover:transition-all hover:duration-300 duration-300 transition-all">
+        About Us
+      </Link>
+
+      <Link className="hover:text-pink-500 hover:transition-all hover:duration-300 duration-300 transition-all">
+        Contact Us
+      </Link>
+    </>
+  );
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -21,53 +38,17 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 space-y-5"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            {url}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <Link to="/" className="font-black text-3xl">Pinak Celebrity</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li tabIndex={0}>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1 space-x-5 font-bold">{url}</ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end hidden">
         <a className="btn">Button</a>
       </div>
     </div>
