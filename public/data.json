@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Brad Pitt",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTc4UH74ZWYKxUdFxaTx8y_euQLixkTaInz5DorF0ryKwsL8UgRZGXNRc1-xw2lYxWv5kuM6eKxZOmqqfk",
+      "age": 58,
+      "birthPlace": "Shawnee, Oklahoma, U.S.",
+      "birthSign": "Sagittarius",
+      "country": "United States"
+    },
+    {
+      "id": 2,
+      "name": "Angelina Jolie",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSUIHRhoDbDnKAW4V0QNfMYPmKrLzWslwWnzjfLteb7eSTIdAVfKTn-rP-VmjRL_ux-E6fp9WUo9ysKG5g",
+      "age": 46,
+      "birthPlace": "Los Angeles, California, U.S.",
+      "birthSign": "Gemini",
+      "country": "United States"
+    },
+    {
+      "id": 3,
+      "name": "Tom Hanks",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTzMv4Zh6HI8AoqtDbfcFwtRU0M9SNYEgNTgDuhYhAFzDFE-Ekyp9NGrLr317MvUFjcRsfBe2aR7w7a2Pg",
+      "age": 65,
+      "birthPlace": "Concord, California, U.S.",
+      "birthSign": "Cancer",
+      "country": "United States"
+    },
+    {
+      "id": 4,
+      "name": "Scarlett Johansson",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTSND-4sIThgmQ8OOVwfxsPYIs2E2IvqEt_O8yEMfUOdFQ-64xlv5g14BMqSbyRDw4jeZurXAy3vEZzQ80",
+      "age": 36,
+      "birthPlace": "New York City, New York, U.S.",
+      "birthSign": "Sagittarius",
+      "country": "United States"
+    },
+    {
+      "id": 5,
+      "name": "Leonardo DiCaprio",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQh0qFKPItQegom_NQJn4b8wWqffImJAET-OEaJEBF_u4g71FKmKeQ0nmbwdEbuyq-iLD21ZJsNxLiV-rc",
+      "age": 46,
+      "birthPlace": "Los Angeles, California, U.S.",
+      "birthSign": "Scorpio",
+      "country": "United States"
+    },
+    {
+      "id": 6,
+      "name": "Jennifer Aniston",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRKdLkD-q1LEYyzvaEay_p8JMAsmeXt387Z0mbaMZEe-P31CChuoYIOk9H0g_65u9HL4t9R-AVO3PdgMT4",
+      "age": 52,
+      "birthPlace": "Sherman Oaks, California, U.S.",
+      "birthSign": "Aquarius",
+      "country": "United States"
+    },
+    {
+      "id": 7,
+      "name": "Robert Downey Jr.",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTfJneS0KWEIkPwaEv4DUTeRQ_wGvt8I8ctNX0zijT13SreEw4ppDCQPb0yPnLDN11IkXFKVKyfCTWBGCY",
+      "age": 56,
+      "birthPlace": "New York City, New York, U.S.",
+      "birthSign": "Aries",
+      "country": "United States"
+    },
+    {
+      "id": 8,
+      "name": "Emma Watson",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ5gpvmOl83tBZMpEoS_iC4AJQ0X8l2LuB6wPhBm5e_3L-06OnVgH2Uk_W_gT7R8XF8URSll1CfeClGP2g",
+      "age": 31,
+      "birthPlace": "Paris, France",
+      "birthSign": "Aries",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 9,
+      "name": "Dwayne Johnson",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQjyALnznOgMri4PaN8OquAOyCG5ikzCaPjIuyakvYb7QDjrDG1qA7Dk0rC66xxh8h6_x8cEnEPrrPo73o",
+      "age": 49,
+      "birthPlace": "Hayward, California, U.S.",
+      "birthSign": "Taurus",
+      "country": "United States"
+    },
+    {
+      "id": 10,
+      "name": "Natalie Portman",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQ6dtoV8TtOOSs5MjtecRsp2OxtwfGeaUqulKSEQ07WRei81K4Rnk0yfNVSaJtJBsnnGy1sk-j5Xc3bT7E",
+      "age": 40,
+      "birthPlace": "Jerusalem, Israel",
+      "birthSign": "Gemini",
+      "country": "United States"
+    }
+  ]
+  
