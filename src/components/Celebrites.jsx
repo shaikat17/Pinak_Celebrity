@@ -11,10 +11,11 @@ const Celebrites = () => {
         .then(data => setData(data))
         .catch(err => console.log(err))
     },[])
+    
     return (
         <div className="my-10">
             <h1 className="uppercase font-black text-3xl mb-5 pl-3">celebrities</h1>
-            <div className="grid gird-cols-1 grid-cols-4 gap-2">
+            <div className="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2">
             {data.map(dt => <SingleCard key={dt.id} {...dt} />)}
             </div>
         </div>
